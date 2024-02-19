@@ -1,0 +1,52 @@
+body{
+    background:white;
+    background-size: cover;
+    width: 150px;
+    height:350px;
+    background-image: url(jay.jpg);
+
+}
+#mainbody{
+   margin-left:0%;
+   margin-top: 2px;
+   background: linear-gradient(#08bf2d9c,#321080);
+   width: 300px;
+   height: 450px;
+   border: solid 4px;
+   border-radius: 30px;
+}
+#screen{
+    border-width: 5px;
+    margin-bottom: 18px;
+    width: 85%;
+    height: 41px;
+    margin-top: 13px;
+    border-color: rgb(0, 255, 221);
+    border-radius: 8px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    pointer-events: none;
+
+}
+.but{
+    width: 200px;
+    height: 300px;
+    margin-left: 1px;
+
+}
+button{
+    width: 50px;
+    height: 60px;
+    margin-top: 10px;
+    background: linear-gradient(#16b3b1,#103880);
+    margin-left: 10px;
+    border: solid blue;
+    border-radius: 20px;
+    font-size: 10px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+bitton:hover{
+    cursor:pointer;
+    background: linear-gradient(#20dddd,#1a56c5);
+}
